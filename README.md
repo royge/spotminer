@@ -18,6 +18,18 @@ Features:
 
 The config file is read from `config.yml`, so copy `config.example.yml` as a template and fill in your packet API key and project ID. Set the `CONFIG_FILE` enviromental variable for a different filename or path.
 
+## Installation
+
+* [Install Go 1.9](https://golang.org/dl/)
+
+* Run `go install`
+
+```
+go install github.com/alexellis/spotminer
+```
+
+This installs spotminer into your `$GOPATH/bin` directory, so update your `$PATH` variable if necessary. `$GOPATH` is normally set to `$HOME/go`.
+
 ## Q&A
 
 For any questions please consult my [mine-with-docker project](https://github.com/alexellis/mine-with-docker)
